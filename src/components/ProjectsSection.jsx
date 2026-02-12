@@ -5,7 +5,7 @@ const projects = [
     id: 1,
     title: "QwenNET: LLM Traffic Analysis",
     description: "Fine-tuned Qwen2.5 to treat network packets as language tokens, achieving 90.4% accuracy in anomaly detection.",
-    image: "public/projects/project1.png", // Use a screenshot of a terminal or a network graph
+    image: "/projects/project1.png", // Use a screenshot of a terminal or a network graph
     tags: ["Python", "PyTorch", "HuggingFace", "Scapy"],
     githubUrl: "https://github.com/roncell/QwenNet",
   },
@@ -13,7 +13,7 @@ const projects = [
     id: 2,
     title: "Multilingual Music Recommender",
     description: "Built an end-to-end MLOps pipeline using LaBSE and MinIO to process and recommend tracks across multiple languages.",
-    image: "/public/projects/project2.png", 
+    image: "/projects/project2.png", 
     tags: ["MLOps", "Docker", "PyTorch", "Chameleon Cloud"],
     githubUrl: "https://github.com/roncell/multilingual-music-recommendation-model",
   },
@@ -21,7 +21,7 @@ const projects = [
     id: 3,
     title: "Bézier Flow",
     description: "A high-performance visualization tool for interactive N-degree Bézier curves, built to explore computational geometry.",
-    image: "public/projects/project3.jpg", 
+    image: "/projects/project3.jpg", 
     tags: ["JavaScript", "Canvas API", "Computational Geometry", "Algorithms"],
     githubUrl: "https://github.com/roncell/B-zier-flow",
   },
